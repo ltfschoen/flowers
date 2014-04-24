@@ -8,8 +8,18 @@
 
 #import <UIKit/UIKit.h>
 
+//@class LukeFlowerViewController;
+
+//@interface AppDelegate : NSObject <UIApplicationDelegate> {
+//    UIWindow *window;
+//    LukeFlowerViewController *viewController;
+//}
+
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
+
+//@property (nonatomic, retain) IBOutlet UIWindow *window;
+//@property (nonatomic, retain) IBOutlet LukeFlowerViewController *viewController;
 
 @end
