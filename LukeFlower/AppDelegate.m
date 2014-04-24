@@ -6,7 +6,11 @@
 //  Copyright (c) 2014 Luke. All rights reserved.
 //
 
+// implementation file contains logic to make features in header file work
 #import "AppDelegate.h"
+
+// load and set as root view controller
+#import "LukeFlowerViewController.h"
 
 @implementation AppDelegate
 

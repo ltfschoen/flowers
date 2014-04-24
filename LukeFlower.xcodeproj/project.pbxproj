@@ -19,6 +19,8 @@
 		A3AA01181908E27C003B3277 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3AA01001908E27C003B3277 /* UIKit.framework */; };
 		A3AA01201908E27C003B3277 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A3AA011E1908E27C003B3277 /* InfoPlist.strings */; };
 		A3AA01221908E27C003B3277 /* LukeFlowerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AA01211908E27C003B3277 /* LukeFlowerTests.m */; };
+		A3AA012E1908E2F9003B3277 /* LukeFlowerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A3AA012C1908E2F9003B3277 /* LukeFlowerViewController.m */; };
+		A3AA012F1908E2F9003B3277 /* LukeFlowerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A3AA012D1908E2F9003B3277 /* LukeFlowerViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		A3AA011D1908E27C003B3277 /* LukeFlowerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LukeFlowerTests-Info.plist"; sourceTree = "<group>"; };
 		A3AA011F1908E27C003B3277 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		A3AA01211908E27C003B3277 /* LukeFlowerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LukeFlowerTests.m; sourceTree = "<group>"; };
+		A3AA012B1908E2F9003B3277 /* LukeFlowerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LukeFlowerViewController.h; sourceTree = "<group>"; };
+		A3AA012C1908E2F9003B3277 /* LukeFlowerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LukeFlowerViewController.m; sourceTree = "<group>"; };
+		A3AA012D1908E2F9003B3277 /* LukeFlowerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LukeFlowerViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				A3AA010C1908E27C003B3277 /* AppDelegate.m */,
 				A3AA010E1908E27C003B3277 /* Images.xcassets */,
 				A3AA01031908E27C003B3277 /* Supporting Files */,
+				A3AA012B1908E2F9003B3277 /* LukeFlowerViewController.h */,
+				A3AA012C1908E2F9003B3277 /* LukeFlowerViewController.m */,
+				A3AA012D1908E2F9003B3277 /* LukeFlowerViewController.xib */,
 			);
 			path = LukeFlower;
 			sourceTree = "<group>";
@@ -220,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3AA01071908E27C003B3277 /* InfoPlist.strings in Resources */,
+				A3AA012F1908E2F9003B3277 /* LukeFlowerViewController.xib in Resources */,
 				A3AA010F1908E27C003B3277 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -239,6 +248,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3AA012E1908E2F9003B3277 /* LukeFlowerViewController.m in Sources */,
 				A3AA010D1908E27C003B3277 /* AppDelegate.m in Sources */,
 				A3AA01091908E27C003B3277 /* main.m in Sources */,
 			);
